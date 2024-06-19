@@ -13,8 +13,8 @@ export default function Index() {
         aria-labelledby="hero-heading"
         className="container mx-auto flex flex-col items-center justify-center gap-4 pb-8 pt-28 text-center md:pb-12 lg:py-32"
       >
-        <Link href={siteConfig.links.twitter} target="_blank" rel="noreferrer">
-          <Badge
+          {/* <Link href={siteConfig.links.twitter} target="_blank" rel="noreferrer">
+          <Badge 
             aria-hidden="true"
             className="rounded-md px-3.5 py-1.5"
             variant="secondary"
@@ -23,15 +23,15 @@ export default function Index() {
             Follow along on Twitter
           </Badge>
           <span className="sr-only">Twitter</span>
-        </Link>
+        </Link> */}
         <h1 className="max-w-screen-lg text-center font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
           {siteConfig.name} - {siteConfig.slogan}
           {/* {siteConfig.name} - watch tv shows online, watch movies online. */}
           {/* An e-commerce skateshop built with everything new in Next.js 13 */}
         </h1>
         <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-          Step into a world where entertainment knows no boundaries, where your
-          screens come alive with an endless array of captivating stories.
+          Enter the next era of entertainment with NEXT, where every
+          cinematic experience unveils exciting new horizons.
         </p>
         <div className="space-x-4">
           <Link className={`${buttonVariants({ size: "lg" })}`} href="/home">
@@ -50,8 +50,8 @@ export default function Index() {
             Features
           </h2>
           <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-            {siteConfig.name} offers a host of powerful features designed to
-            enhance your movie-watching experience.
+            {siteConfig.name} brings a selection of revolutionary features
+            that enhance your cinematic experience.
           </p>
         </div>
         <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">

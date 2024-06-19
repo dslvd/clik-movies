@@ -42,9 +42,9 @@ const SiteFooter = () => {
               ),
           )}
         </ul>
-        <p className="text-xs text-foreground/60 sm:text-sm">
+        {/*<p className="text-xs text-foreground/60 sm:text-sm">
           @ 2023-{new Date().getFullYear()} {siteConfig.author}.
-        </p>
+        </p>*/}
       </div>
       {/* <div className="container flex flex-col items-center justify-between md:h-24 md:flex-row md:py-0 gap-4"> */}
       <div className="container flex h-24 items-center gap-2 px-8">
@@ -58,15 +58,6 @@ const SiteFooter = () => {
             className="font-medium underline underline-offset-4"
           >
             {siteConfig.author}
-          </a>
-          . The source code is available on{" "}
-          <a
-            href={siteConfig.links.github}
-            target="_blank"
-            rel="noreferrer"
-            className="font-medium underline underline-offset-4"
-          >
-            GitHub
           </a>
           .
         </p>

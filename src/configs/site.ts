@@ -11,7 +11,7 @@ export type SiteConfig = typeof siteConfig;
 export const siteConfig = {
   name: env.NEXT_PUBLIC_SITE_NAME,
   author: env.NEXT_PUBLIC_SITE_NAME,
-  slogan: 'Watch TV Shows Online, Watch Movies Online.',
+  slogan: 'Redefining Movie Thrills.',
   description:
     'Watch movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.',
   keywords: [
@@ -61,18 +61,18 @@ export const siteConfig = {
     },
   ],
   footerItems: [
-    { title: 'Audio Description', href: '/' },
-    { title: 'Help Center', href: '/' },
-    { title: 'Gift Cards', href: '/' },
-    { title: 'Media Center', href: '/' },
-    { title: 'Investor Relations', href: '/' },
-    { title: 'Jobs', href: '/' },
-    { title: 'Terms of Use', href: '/terms-of-use' },
-    { title: 'Privacy', href: '/' },
-    { title: 'Legal Notices', href: '/' },
-    { title: 'Cookie Preferences', href: '/' },
-    { title: 'Corporate Information', href: '/' },
-    { title: 'Contact Us', href: '/' },
+    //{ title: 'Audio Description', href: '/' },
+    //{ title: 'Help Center', href: '/' },
+    //{ title: 'Gift Cards', href: '/' },
+    //{ title: 'Media Center', href: '/' },
+    //{ title: 'Investor Relations', href: '/' },
+    //{ title: 'Jobs', href: '/' },
+    //{ title: 'Terms of Use', href: '/terms-of-use' },
+    //{ title: 'Privacy', href: '/' },
+    //{ title: 'Legal Notices', href: '/' },
+    //{ title: 'Cookie Preferences', href: '/' },
+    //{ title: 'Corporate Information', href: '/' },
+    //{ title: 'Contact Us', href: '/' },
   ],
   mainNav: [
     {
@@ -81,8 +81,8 @@ export const siteConfig = {
       // icon: Icons.play,
     },
     {
-      title: 'TV Shows',
-      href: '/tv-shows',
+      title: 'Series',
+      href: '/series',
       // icon: Icons.tvShow,
     },
     {
