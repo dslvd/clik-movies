@@ -33,7 +33,7 @@ const Hero = ({ randomShow }: HeroProps) => {
         return;
       }
       const findMovie: Promise<AxiosResponse<Show>> = pathname.includes(
-        '/tv-shows',
+        '/series',
       )
         ? MovieService.findTvSeries(movieId)
         : MovieService.findMovie(movieId);

@@ -45,7 +45,7 @@ const ShowsContainer = ({ shows }: ShowsContainerProps) => {
       return;
     }
     try {
-      const response: AxiosResponse<Show> = pathname.includes('/tv-shows')
+      const response: AxiosResponse<Show> = pathname.includes('/series')
         ? await MovieService.findTvSeries(movieId)
         : await MovieService.findMovie(movieId);
       const data: Show = response.data;

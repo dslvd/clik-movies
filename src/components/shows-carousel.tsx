@@ -137,7 +137,7 @@ export const ShowCard = ({ show }: { show: Show; pathname: string }) => {
         onClick={() => {
           const name = getNameFromShow(show);
           const path: string =
-            show.media_type === MediaType.TV ? 'tv-shows' : 'movies';
+            show.media_type === MediaType.TV ? 'series' : 'movies';
           window.history.pushState(
             null,
             '',
